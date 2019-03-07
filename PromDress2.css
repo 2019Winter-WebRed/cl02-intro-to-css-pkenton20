@@ -1,0 +1,39 @@
+/*
+* Paige Kenton
+* 3/6/19
+* Project Name and Description
+*/
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Body attributes here */
+
+body {
+    
+    width: 80%;
+    margin: auto;
+    background-color: mistyrose;
+    font-family: Arial, Helvetica, sans-serif;
+    
+     }
+
+h1 { 
+    background-color: lightcoral; /* color for background */ 
+    color: white; /* color of text */
+    }
+
+p { 
+    color: navy; /* type selctor for ALL paragraphs */
+  }
+
+#redText {
+    color: hotpink; /* use an id to change text to red */
+         }
+
+.greenText {
+    color: lightseagreen; /* use a class to change text to green in different kinds of elements */
+           }
